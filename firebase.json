@@ -1,11 +1,11 @@
 {
   "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
+    "rules": "03-Database/firestore.rules",
+    "indexes": "03-Database/firestore.indexes.json"
   },
   "functions": [
     {
-      "source": "functions",
+      "source": "02-Backend",
       "codebase": "default",
       "ignore": [
         "node_modules",
@@ -13,11 +13,14 @@
         "firebase-debug.log",
         "firebase-debug.*.log",
         "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run build"
       ]
     }
   ],
   "hosting": {
-    "public": "dist",
+    "public": "01-Frontend/dist",
     "ignore": [
       "firebase.json",
       "**/.*",

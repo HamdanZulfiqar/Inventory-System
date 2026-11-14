@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "demo-admin-01",
+    "name": "Sarah Connor",
+    "email": "admin@inventory.edu",
+    "role": "Admin",
+    "department": "Management",
+    "createdAt": "2024-01-01T08:00:00.000Z"
+  },
+  {
+    "uid": "demo-inventory-01",
+    "name": "Michael Chen",
+    "email": "inventory@inventory.edu",
+    "role": "Inventory Staff",
+    "department": "Warehouse & Logistics",
+    "createdAt": "2024-01-05T09:30:00.000Z"
+  },
+  {
+    "uid": "demo-sales-01",
+    "name": "Amina Patel",
+    "email": "sales@inventory.edu",
+    "role": "Sales Staff",
+    "department": "Storefront Counter",
+    "createdAt": "2024-01-10T11:15:00.000Z"
+  }
+]

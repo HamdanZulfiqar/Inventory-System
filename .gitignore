@@ -1,35 +1,40 @@
 # Dependencies
 node_modules/
-.pnp
-.pnp.js
+01-Frontend/node_modules/
+02-Backend/node_modules/
+03-Database/scripts/node_modules/
 
-# Testing
-coverage/
-
-# Production build
+# Production build outputs
 dist/
-dist-ssr/
+01-Frontend/dist/
+02-Backend/lib/
 
-# Environment variables
+# Local Environment Variables & Secrets
 .env.local
 .env.*.local
+01-Frontend/.env.local
+serviceAccountKey.json
+*.serviceAccountKey.json
 
-# Logs
+# Firebase caches & logs
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+firestore-debug.log*
+
+# Logs & temp files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor directories and files
+# Editor & OS files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
-
-# Firebase cache
-.firebase/

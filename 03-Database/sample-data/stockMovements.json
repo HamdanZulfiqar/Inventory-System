@@ -1,0 +1,41 @@
+[
+  {
+    "id": "mov-101",
+    "productId": "prd-001",
+    "productName": "Wireless Bluetooth Ergonomic Mouse",
+    "type": "stock_in",
+    "quantity": 25,
+    "previousQuantity": 20,
+    "newQuantity": 45,
+    "referenceId": "PO-2024-008",
+    "notes": "Received restock shipment from Apex Wholesale",
+    "userId": "Sarah Connor",
+    "createdAt": "2024-03-10T14:30:00.000Z"
+  },
+  {
+    "id": "mov-102",
+    "productId": "prd-002",
+    "productName": "Mechanical Gaming Keyboard (Blue Switch)",
+    "type": "stock_out",
+    "quantity": 4,
+    "previousQuantity": 12,
+    "newQuantity": 8,
+    "referenceId": "SALE-8801",
+    "notes": "In-store sales counter transaction",
+    "userId": "Amina Patel",
+    "createdAt": "2024-03-11T16:15:00.000Z"
+  },
+  {
+    "id": "mov-103",
+    "productId": "prd-004",
+    "productName": "USB-C Fast Charging Cable 2M (Nylon Braided)",
+    "type": "adjustment",
+    "quantity": -2,
+    "previousQuantity": 6,
+    "newQuantity": 4,
+    "referenceId": "ADJ-AUDIT-03",
+    "notes": "Damaged packaging during inventory audit",
+    "userId": "Michael Chen",
+    "createdAt": "2024-03-12T09:45:00.000Z"
+  }
+]

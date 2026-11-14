@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sup-001",
+    "name": "Apex Wholesale Supplies",
+    "email": "orders@apexsupplies.com",
+    "phone": "+1 (555) 234-5678",
+    "address": "142 Market Street, Industrial Park, Suite 4",
+    "createdAt": "2024-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "sup-002",
+    "name": "Global Hardware & Electronics",
+    "email": "contact@globalelec.net",
+    "phone": "+1 (555) 876-5432",
+    "address": "88 Tech Boulevard, Silicon Valley, CA",
+    "createdAt": "2024-02-01T12:30:00.000Z"
+  },
+  {
+    "id": "sup-003",
+    "name": "Metro Retail Logistics",
+    "email": "support@metrologistics.com",
+    "phone": "+1 (555) 345-9876",
+    "address": "500 Commerce Way, Bayonne, NJ",
+    "createdAt": "2024-03-10T14:45:00.000Z"
+  }
+]
