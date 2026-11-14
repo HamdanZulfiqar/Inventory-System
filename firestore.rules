@@ -1,0 +1,74 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper to get user profile document
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    // Role check helpers
+    function isAdmin() {
+      return isAuthenticated() && (
+        request.auth.token.role == 'Admin' ||
+        getUserData().role == 'Admin'
+      );
+    }
+
+    function isInventoryStaff() {
+      return isAuthenticated() && (
+        request.auth.token.role == 'Inventory Staff' ||
+        getUserData().role == 'Inventory Staff' ||
+        isAdmin()
+      );
+    }
+
+    function isSalesStaff() {
+      return isAuthenticated() && (
+        request.auth.token.role == 'Sales Staff' ||
+        getUserData().role == 'Sales Staff' ||
+        isAdmin()
+      );
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow update, delete: if isAdmin();
+    }
+
+    // Products Collection
+    match /products/{productId} {
+      allow read: if isAuthenticated();
+      allow create, update: if isInventoryStaff();
+      allow delete: if isAdmin();
+    }
+
+    // Suppliers Collection
+    match /suppliers/{supplierId} {
+      allow read: if isAuthenticated();
+      allow create, update: if isInventoryStaff();
+      allow delete: if isAdmin();
+    }
+
+    // Sales Collection
+    match /sales/{saleId} {
+      allow read: if isAuthenticated();
+      allow create: if isSalesStaff();
+      allow update, delete: if isAdmin();
+    }
+
+    // Stock Movements Collection
+    match /stockMovements/{movementId} {
+      allow read: if isAuthenticated();
+      allow create: if isInventoryStaff() || isSalesStaff();
+      allow update, delete: if false; // Immutable audit log
+    }
+  }
+}
