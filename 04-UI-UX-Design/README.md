@@ -1,6 +1,16 @@
-# 04-UI-UX-Design — Complete Figma Specification & Asset Package
+# 04-UI-UX-Design — Complete Figma Specification & Editable Figma Project
 
-## 1. Overview & Contents
+## 1. Live Editable Figma Project
+An editable Figma project has been created and populated directly in your Figma workspace:
+
+👉 **[Open Live Figma Project](https://www.figma.com/design/Dxv7fmAgxJC6tUkwXU2eNR)**  
+- **File Key:** `Dxv7fmAgxJC6tUkwXU2eNR`
+- **Owner Account:** Hamdan Zulfiqar's team (`hamdanzulfiqar440@gmail.com`)
+- **Canvas Status:** Populated with 9 editable vector artboard frames (Cover, Design System, Login, Dashboard, Products, Inventory, Suppliers, Sales POS, Reports).
+
+---
+
+## 2. Package Overview & Contents
 This package contains the complete UI/UX design deliverables for the **Smart Inventory and Sales Management System**, designed to recreate a production-ready, editable Figma project.
 
 ```

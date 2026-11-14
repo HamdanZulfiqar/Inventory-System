@@ -2,6 +2,7 @@
 **Project:** Smart Inventory and Sales Management System  
 **Academic Target:** University Information System Project — Retail Store Edition  
 **Canvas Standard:** Desktop 1440 × 900 px (Responsive 8pt Grid)  
+**Live Editable Figma File:** [https://www.figma.com/design/Dxv7fmAgxJC6tUkwXU2eNR](https://www.figma.com/design/Dxv7fmAgxJC6tUkwXU2eNR)  
 **Deliverable File:** `04-UI-UX-Design/FIGMA-DESIGN-SPECIFICATION.md`  
 
 ---
