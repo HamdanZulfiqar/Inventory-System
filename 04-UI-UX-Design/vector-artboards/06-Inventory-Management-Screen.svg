@@ -1,0 +1,86 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#F8FAFC"/>
+
+  <!-- SIDEBAR (256px) -->
+  <g id="Sidebar">
+    <rect width="256" height="900" fill="#0F172A"/>
+    <rect x="20" y="16" width="36" height="36" rx="8" fill="#2563EB"/>
+    <text x="68" y="32" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">SmartInventory</text>
+    <text x="68" y="46" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#94A3B8">Retail Store System</text>
+    <line x1="0" y1="64" x2="256" y2="64" stroke="#1E293B"/>
+
+    <text x="52" y="145" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Dashboard</text>
+    <text x="52" y="185" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Products</text>
+
+    <!-- Inventory (Active) -->
+    <rect x="12" y="210" width="232" height="40" rx="8" fill="#2563EB"/>
+    <text x="52" y="235" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Inventory &amp; Stock</text>
+
+    <text x="52" y="285" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Sales &amp; POS</text>
+    <text x="52" y="325" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Suppliers</text>
+    <text x="52" y="365" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Reports &amp; Analytics</text>
+  </g>
+
+  <!-- TOP NAVBAR -->
+  <g id="TopNavbar" transform="translate(256, 0)">
+    <rect width="1184" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="32" y="38" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="0.05em">STORE MANAGEMENT CONSOLE / INVENTORY</text>
+  </g>
+
+  <!-- MAIN CONTENT -->
+  <g id="MainContent" transform="translate(288, 88)">
+    <text x="0" y="24" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#0F172A">Inventory &amp; Stock Operations</text>
+    <text x="0" y="44" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#64748B">Process stock receipts, balance audit discrepancies, and monitor movement ledger.</text>
+
+    <!-- Tabs Toggle -->
+    <rect x="800" y="8" width="320" height="38" rx="8" fill="#E2E8F0"/>
+    <rect x="804" y="12" width="150" height="30" rx="6" fill="#FFFFFF"/>
+    <text x="879" y="31" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0F172A" text-anchor="middle">Stock Levels &amp; Actions</text>
+    <text x="1035" y="31" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B" text-anchor="middle">Audit Ledger (50)</text>
+
+    <!-- Stock Table -->
+    <g transform="translate(0, 70)">
+      <rect width="1120" height="680" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+
+      <rect width="1120" height="50" rx="12" fill="#F8FAFC"/>
+      <text x="24" y="30" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">PRODUCT NAME</text>
+      <text x="360" y="30" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">SKU</text>
+      <text x="500" y="30" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" text-anchor="middle">CURRENT QUANTITY</text>
+      <text x="680" y="30" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" text-anchor="middle">REORDER THRESHOLD</text>
+      <text x="830" y="30" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">HEALTH STATUS</text>
+      <text x="1075" y="30" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" text-anchor="end">STOCK ACTIONS</text>
+      <line x1="0" y1="50" x2="1120" y2="50" stroke="#E2E8F0"/>
+
+      <!-- Row 1 -->
+      <text x="24" y="86" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Wireless Bluetooth Ergonomic Mouse</text>
+      <text x="360" y="86" font-family="monospace" font-size="11" fill="#64748B">ELE-1042</text>
+      <text x="500" y="86" font-family="monospace" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle">45</text>
+      <text x="680" y="86" font-family="monospace" font-size="13" fill="#64748B" text-anchor="middle">15</text>
+      <rect x="790" y="72" width="85" height="26" rx="13" fill="#ECFDF5" stroke="#A7F3D0"/>
+      <text x="832" y="89" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">In Stock</text>
+      
+      <!-- Action Buttons -->
+      <rect x="940" y="70" width="80" height="30" rx="6" fill="#EFF6FF" stroke="#BFDBFE"/>
+      <text x="980" y="89" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#2563EB" text-anchor="middle">Stock In</text>
+
+      <rect x="1030" y="70" width="70" height="30" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <text x="1065" y="89" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Adjust</text>
+      <line x1="0" y1="115" x2="1120" y2="115" stroke="#F1F5F9"/>
+
+      <!-- Row 2 -->
+      <text x="24" y="150" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Mechanical Gaming Keyboard (Blue Switch)</text>
+      <text x="360" y="150" font-family="monospace" font-size="11" fill="#64748B">ELE-2089</text>
+      <text x="500" y="150" font-family="monospace" font-size="15" font-weight="700" fill="#D97706" text-anchor="middle">8</text>
+      <text x="680" y="150" font-family="monospace" font-size="13" fill="#64748B" text-anchor="middle">10</text>
+      <rect x="790" y="136" width="95" height="26" rx="13" fill="#FFFBEB" stroke="#FDE68A"/>
+      <text x="837" y="153" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400E" text-anchor="middle">Low Stock</text>
+
+      <rect x="940" y="134" width="80" height="30" rx="6" fill="#EFF6FF" stroke="#BFDBFE"/>
+      <text x="980" y="153" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#2563EB" text-anchor="middle">Stock In</text>
+
+      <rect x="1030" y="134" width="70" height="30" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <text x="1065" y="153" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Adjust</text>
+      <line x1="0" y1="180" x2="1120" y2="180" stroke="#F1F5F9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Canvas -->
+  <rect width="1440" height="900" fill="#F1F5F9"/>
+
+  <!-- Centered Login Card Frame -->
+  <g transform="translate(500, 100)">
+    <!-- Header Logo & Brand -->
+    <rect x="196" y="0" width="48" height="48" rx="12" fill="#2563EB"/>
+    <path d="M210 18L220 13L230 18L220 23L210 18Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M210 24L220 29L230 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M210 30L220 35L230 30" stroke="white" stroke-width="2" stroke-linecap="round"/>
+
+    <text x="220" y="74" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">SmartInventory</text>
+    <text x="220" y="94" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B" text-anchor="middle">Smart Inventory &amp; Sales Management System</text>
+    
+    <rect x="145" y="105" width="150" height="22" rx="11" fill="#EFF6FF" stroke="#BFDBFE"/>
+    <text x="220" y="120" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="600" fill="#2563EB" text-anchor="middle">University Evaluation Prototype</text>
+
+    <!-- White Card Box -->
+    <rect x="0" y="145" width="440" height="580" rx="16" fill="#FFFFFF" stroke="#E2E8F0" filter="drop-shadow(0px 10px 15px rgba(0,0,0,0.05))"/>
+
+    <text x="32" y="185" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Sign In to Your Account</text>
+    <line x1="32" y1="202" x2="408" y2="202" stroke="#F1F5F9" stroke-width="1"/>
+
+    <!-- Email Field -->
+    <text x="32" y="230" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#334155">Email Address</text>
+    <rect x="32" y="240" width="376" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="48" y="266" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0F172A">admin@inventory.edu</text>
+
+    <!-- Password Field -->
+    <text x="32" y="310" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#334155">Password</text>
+    <rect x="32" y="320" width="376" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="48" y="347" font-family="Inter, system-ui, sans-serif" font-size="15" fill="#0F172A">••••••••</text>
+
+    <!-- Sign In Button -->
+    <rect x="32" y="385" width="376" height="44" rx="8" fill="#2563EB"/>
+    <text x="220" y="412" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Sign In →</text>
+
+    <!-- Supervisor Quick Accounts -->
+    <line x1="32" y1="455" x2="408" y2="455" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="32" y="480" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1E293B">Supervisor Quick Evaluation Accounts</text>
+    <text x="32" y="496" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748B">Click any role to autofill test credentials:</text>
+
+    <!-- Account 1 -->
+    <rect x="32" y="510" width="376" height="48" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="46" y="530" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Sarah Connor</text>
+    <text x="46" y="546" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748B">admin@inventory.edu</text>
+    <rect x="320" y="522" width="74" height="24" rx="4" fill="#F5F3FF" stroke="#DDD6FE"/>
+    <text x="357" y="538" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" fill="#5B21B6" text-anchor="middle">Admin</text>
+
+    <!-- Account 2 -->
+    <rect x="32" y="568" width="376" height="48" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="46" y="588" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Michael Chen</text>
+    <text x="46" y="604" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748B">inventory@inventory.edu</text>
+    <rect x="300" y="580" width="94" height="24" rx="4" fill="#FFFBEB" stroke="#FDE68A"/>
+    <text x="347" y="596" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" fill="#92400E" text-anchor="middle">Inventory Staff</text>
+
+    <!-- Account 3 -->
+    <rect x="32" y="626" width="376" height="48" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="46" y="646" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Amina Patel</text>
+    <text x="46" y="662" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748B">sales@inventory.edu</text>
+    <rect x="315" y="638" width="79" height="24" rx="4" fill="#ECFDF5" stroke="#A7F3D0"/>
+    <text x="354" y="654" font-family="Inter, system-ui, sans-serif" font-size="10" font-weight="700" fill="#065F46" text-anchor="middle">Sales Staff</text>
+  </g>
+</svg>

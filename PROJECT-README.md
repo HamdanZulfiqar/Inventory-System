@@ -83,6 +83,13 @@ Inventory_System/
 │   │   └── seedDatabase.js         # Node.js Firestore seed utility
 │   └── README.md                   # Component 3 detailed documentation
 │
+├── 04-UI-UX-Design/                # Component 4: Figma Design System & Specification
+│   ├── FIGMA-DESIGN-SPECIFICATION.md# Master design specification & prototype matrix
+│   ├── tokens/
+│   │   └── figma-tokens.json       # Importable Figma tokens (Colors, Typography, Spacing)
+│   ├── vector-artboards/           # 9 editable SVG artboards ready to import into Figma
+│   └── README.md                   # Figma assembly and presentation guide
+│
 ├── firebase.json                   # Root Firebase configuration linking all 3 components
 ├── .gitignore                      # Git ignore rules for all components
 ├── package.json                    # Root orchestration scripts

@@ -1,0 +1,180 @@
+<svg width="1440" height="1100" viewBox="0 0 1440 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1100" fill="#F8FAFC"/>
+  
+  <!-- Header -->
+  <rect width="1440" height="80" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="60" y="48" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#0F172A">Design System &amp; Component Library</text>
+  <text x="500" y="48" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" fill="#64748B">Desktop 1440 Grid • 8pt Spacing Scale • Inter Sans</text>
+
+  <!-- Section 1: Color Palette -->
+  <text x="60" y="125" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E293B">1. COLOR TOKENS</text>
+  
+  <!-- Brand Blue -->
+  <g transform="translate(60, 145)">
+    <rect width="100" height="60" rx="8" fill="#2563EB"/>
+    <text x="10" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Brand Blue</text>
+    <text x="10" y="96" font-family="monospace" font-size="11" fill="#64748B">#2563EB</text>
+
+    <rect x="120" y="0" width="100" height="60" rx="8" fill="#1D4ED8"/>
+    <text x="130" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Hover Blue</text>
+    <text x="130" y="96" font-family="monospace" font-size="11" fill="#64748B">#1D4ED8</text>
+
+    <rect x="240" y="0" width="100" height="60" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+    <text x="250" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Blue Tint 50</text>
+    <text x="250" y="96" font-family="monospace" font-size="11" fill="#64748B">#EFF6FF</text>
+
+    <!-- Navy Sidebar -->
+    <rect x="380" y="0" width="100" height="60" rx="8" fill="#0F172A"/>
+    <text x="390" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Sidebar Navy</text>
+    <text x="390" y="96" font-family="monospace" font-size="11" fill="#64748B">#0F172A</text>
+
+    <rect x="500" y="0" width="100" height="60" rx="8" fill="#1E293B"/>
+    <text x="510" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Navy Sub</text>
+    <text x="510" y="96" font-family="monospace" font-size="11" fill="#64748B">#1E293B</text>
+
+    <!-- Semantic Status -->
+    <rect x="640" y="0" width="90" height="60" rx="8" fill="#10B981"/>
+    <text x="650" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Success</text>
+    <text x="650" y="96" font-family="monospace" font-size="11" fill="#64748B">#10B981</text>
+
+    <rect x="750" y="0" width="90" height="60" rx="8" fill="#F59E0B"/>
+    <text x="760" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Warning</text>
+    <text x="760" y="96" font-family="monospace" font-size="11" fill="#64748B">#F59E0B</text>
+
+    <rect x="860" y="0" width="90" height="60" rx="8" fill="#F43F5E"/>
+    <text x="870" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Danger</text>
+    <text x="870" y="96" font-family="monospace" font-size="11" fill="#64748B">#F43F5E</text>
+
+    <!-- Neutrals -->
+    <rect x="980" y="0" width="80" height="60" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="985" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Canvas</text>
+    <text x="985" y="96" font-family="monospace" font-size="11" fill="#64748B">#F8FAFC</text>
+
+    <rect x="1080" y="0" width="80" height="60" rx="8" fill="#E2E8F0"/>
+    <text x="1085" y="80" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Border</text>
+    <text x="1085" y="96" font-family="monospace" font-size="11" fill="#64748B">#E2E8F0</text>
+  </g>
+
+  <!-- Section 2: Typography Scale -->
+  <text x="60" y="295" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E293B">2. TYPOGRAPHY SCALE (Inter)</text>
+  <g transform="translate(60, 315)">
+    <rect width="600" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    
+    <text x="24" y="40" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" fill="#0F172A">Display 24px Bold (Page Titles)</text>
+    <text x="24" y="80" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700" fill="#1E293B">H1 20px Bold (Section Headings)</text>
+    <text x="24" y="120" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#334155">H2 16px SemiBold (Card Titles)</text>
+    <text x="24" y="155" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#475569">Body 14px Regular (Standard text, inputs, table content)</text>
+    <text x="24" y="190" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B">Caption 12px Medium (Secondary labels, metadata)</text>
+    <text x="24" y="220" font-family="monospace" font-size="11" font-weight="600" fill="#2563EB">Micro 11px Mono (SKU numbers, prices, timestamps)</text>
+  </g>
+
+  <!-- Section 3: Buttons & Interactive Components -->
+  <text x="700" y="295" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E293B">3. BUTTON VARIANTS &amp; INPUTS</text>
+  <g transform="translate(700, 315)">
+    <rect width="680" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    
+    <!-- Primary Button -->
+    <rect x="24" y="30" width="140" height="38" rx="8" fill="#2563EB"/>
+    <text x="94" y="54" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ Add Product</text>
+
+    <!-- Secondary Button -->
+    <rect x="180" y="30" width="140" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="250" y="54" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">Cancel Action</text>
+
+    <!-- Danger Button -->
+    <rect x="335" y="30" width="120" height="38" rx="8" fill="#FFF1F2" stroke="#FECDD3"/>
+    <text x="395" y="54" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#9F1239" text-anchor="middle">Deactivate</text>
+
+    <!-- Form Input Box -->
+    <text x="24" y="105" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#475569">Product Name *</text>
+    <rect x="24" y="115" width="300" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="36" y="139" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0F172A">Wireless Ergonomic Mouse</text>
+
+    <!-- Select Dropdown -->
+    <text x="345" y="105" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#475569">Category</text>
+    <rect x="345" y="115" width="220" height="38" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="360" y="139" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#0F172A">Electronics</text>
+    <path d="M540 132L546 138L552 132" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Search Box with Icon -->
+    <rect x="24" y="175" width="400" height="38" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="42" cy="194" r="5" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="46" y1="198" x2="52" y2="204" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="60" y="199" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#94A3B8">Search by product name, SKU, category...</text>
+  </g>
+
+  <!-- Section 4: Badges & Status Indicators -->
+  <text x="60" y="605" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E293B">4. STOCK &amp; ROLE STATUS BADGES</text>
+  <g transform="translate(60, 625)">
+    <rect width="1320" height="110" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    
+    <!-- In Stock Badge -->
+    <rect x="24" y="38" width="95" height="28" rx="14" fill="#ECFDF5" stroke="#A7F3D0"/>
+    <circle cx="40" cy="52" r="3.5" fill="#10B981"/>
+    <text x="50" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#065F46">In Stock</text>
+
+    <!-- Low Stock Badge -->
+    <rect x="135" y="38" width="105" height="28" rx="14" fill="#FFFBEB" stroke="#FDE68A"/>
+    <circle cx="152" cy="52" r="3.5" fill="#F59E0B"/>
+    <text x="162" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400E">Low Stock</text>
+
+    <!-- Out of Stock Badge -->
+    <rect x="255" y="38" width="115" height="28" rx="14" fill="#FFF1F2" stroke="#FECDD3"/>
+    <circle cx="272" cy="52" r="3.5" fill="#F43F5E"/>
+    <text x="282" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#9F1239">Out of Stock</text>
+
+    <!-- Role Badges -->
+    <rect x="420" y="38" width="80" height="28" rx="6" fill="#F5F3FF" stroke="#DDD6FE"/>
+    <text x="460" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#5B21B6" text-anchor="middle">Admin</text>
+
+    <rect x="515" y="38" width="120" height="28" rx="6" fill="#FFFBEB" stroke="#FDE68A"/>
+    <text x="575" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#92400E" text-anchor="middle">Inventory Staff</text>
+
+    <rect x="650" y="38" width="105" height="28" rx="6" fill="#ECFDF5" stroke="#A7F3D0"/>
+    <text x="702" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#065F46" text-anchor="middle">Sales Staff</text>
+
+    <!-- Active / Deactivated -->
+    <rect x="800" y="38" width="70" height="28" rx="6" fill="#ECFDF5" stroke="#A7F3D0"/>
+    <text x="835" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">Active</text>
+
+    <rect x="885" y="38" width="95" height="28" rx="6" fill="#F1F5F9" stroke="#E2E8F0"/>
+    <text x="932" y="56" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748B" text-anchor="middle">Deactivated</text>
+  </g>
+
+  <!-- Section 5: StatCard Component Spec -->
+  <text x="60" y="785" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1E293B">5. REUSABLE STATCARD COMPONENT</text>
+  <g transform="translate(60, 805)">
+    <!-- Card 1 -->
+    <rect width="310" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="20" y="36" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#64748B">Total Products</text>
+    <rect x="250" y="18" width="40" height="40" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+    <path d="M265 34L270 30L275 34L270 38Z" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="20" y="86" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#0F172A">148</text>
+    <rect x="20" y="105" width="85" height="22" rx="4" fill="#ECFDF5"/>
+    <text x="28" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#065F46">↑ +4 this week</text>
+    <text x="115" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748B">In active catalogue</text>
+
+    <!-- Card 2 -->
+    <rect x="335" y="0" width="310" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="355" y="36" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#64748B">Total Sales Value</text>
+    <rect x="585" y="18" width="40" height="40" rx="8" fill="#ECFDF5" stroke="#A7F3D0"/>
+    <text x="355" y="86" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#0F172A">$12,450.00</text>
+    <rect x="355" y="105" width="75" height="22" rx="4" fill="#ECFDF5"/>
+    <text x="363" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#065F46">↑ +18.4%</text>
+    <text x="440" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748B">Real-time revenue</text>
+
+    <!-- Card 3 -->
+    <rect x="670" y="0" width="310" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="690" y="36" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#64748B">Low Stock Items</text>
+    <rect x="920" y="18" width="40" height="40" rx="8" fill="#FFF1F2" stroke="#FECDD3"/>
+    <text x="690" y="86" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#E11D48">3</text>
+    <text x="690" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#E11D48">Require immediate reorder</text>
+
+    <!-- Card 4 -->
+    <rect x="1005" y="0" width="310" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="1025" y="36" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#64748B">Active Suppliers</text>
+    <rect x="1255" y="18" width="40" height="40" rx="8" fill="#F5F3FF" stroke="#DDD6FE"/>
+    <text x="1025" y="86" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700" fill="#0F172A">12</text>
+    <text x="1025" y="120" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#64748B">Verified trade vendors</text>
+  </g>
+</svg>

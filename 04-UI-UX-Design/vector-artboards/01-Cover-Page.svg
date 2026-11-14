@@ -1,0 +1,60 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#0F172A"/>
+  
+  <!-- Subtle Grid Accent -->
+  <circle cx="1200" cy="200" r="300" fill="#1E3A8A" opacity="0.3" filter="blur(60px)"/>
+  <circle cx="200" cy="700" r="250" fill="#2563EB" opacity="0.15" filter="blur(50px)"/>
+
+  <!-- Logo Mark -->
+  <g transform="translate(140, 240)">
+    <rect width="72" height="72" rx="16" fill="#2563EB"/>
+    <path d="M22 28L36 20L50 28L36 36L22 28Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 38L36 46L50 38" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 48L36 56L50 48" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="140" y="380" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF" letter-spacing="-0.02em">
+    Smart Inventory &amp; Sales Management System
+  </text>
+  <text x="140" y="425" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="500" fill="#94A3B8">
+    University Information System — UI/UX Design Specification &amp; Component Blueprint
+  </text>
+
+  <!-- Metadata Badge Card -->
+  <rect x="140" y="480" width="840" height="180" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  
+  <text x="180" y="530" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#3B82F6" letter-spacing="0.05em">PROJECT DETAILS</text>
+  <text x="180" y="565" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F8FAFC">Target Domain:</text>
+  <text x="310" y="565" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#CBD5E1">Small Retail Storefront &amp; Stock Operations</text>
+  
+  <text x="180" y="605" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F8FAFC">Deliverable Version:</text>
+  <text x="340" y="605" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#CBD5E1">v1.0 — High-Fidelity Interactive Desktop Specification</text>
+  
+  <text x="180" y="640" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F8FAFC">Technical Alignment:</text>
+  <text x="340" y="640" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#CBD5E1">React 18, Tailwind CSS, Cloud Firestore, Cloud Functions</text>
+
+  <!-- Screen Tags -->
+  <g transform="translate(140, 700)">
+    <rect x="0" y="0" width="105" height="32" rx="6" fill="#1E293B" stroke="#334155"/>
+    <text x="52" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#93C5FD" text-anchor="middle">1. Login</text>
+
+    <rect x="115" y="0" width="130" height="32" rx="6" fill="#1E293B" stroke="#334155"/>
+    <text x="180" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#93C5FD" text-anchor="middle">2. Dashboard</text>
+
+    <rect x="255" y="0" width="120" height="32" rx="6" fill="#1E293B" stroke="#334155"/>
+    <text x="315" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#93C5FD" text-anchor="middle">3. Products</text>
+
+    <rect x="385" y="0" width="120" height="32" rx="6" fill="#1E293B" stroke="#334155"/>
+    <text x="445" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#93C5FD" text-anchor="middle">4. Inventory</text>
+
+    <rect x="515" y="0" width="120" height="32" rx="6" fill="#1E293B" stroke="#334155"/>
+    <text x="575" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#93C5FD" text-anchor="middle">5. Suppliers</text>
+
+    <rect x="645" y="0" width="120" height="32" rx="6" fill="#1E293B" stroke="#334155"/>
+    <text x="705" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#93C5FD" text-anchor="middle">6. Sales POS</text>
+
+    <rect x="775" y="0" width="120" height="32" rx="6" fill="#1E293B" stroke="#334155"/>
+    <text x="835" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#93C5FD" text-anchor="middle">7. Reports</text>
+  </g>
+</svg>

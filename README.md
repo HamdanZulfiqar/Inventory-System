@@ -12,6 +12,7 @@ For the full architectural documentation, university requirements mapping, and s
 - **[01-Frontend](01-Frontend/README.md):** React + Vite Web Application, pages, components, services, and `firebaseConfig.js`.
 - **[02-Backend](02-Backend/README.md):** Firebase Cloud Functions, TypeScript business logic, and atomic transactions.
 - **[03-Database](03-Database/README.md):** Cloud Firestore security rules, query indexes, schema definitions, and sample datasets.
+- **[04-UI-UX-Design](04-UI-UX-Design/README.md):** Complete Figma design specification, Tokens Studio JSON, and 9 editable vector artboards.
 
 ---
 
