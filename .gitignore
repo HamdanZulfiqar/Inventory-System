@@ -1,17 +1,21 @@
 # Dependencies
 node_modules/
+**/node_modules/
 01-Frontend/node_modules/
 02-Backend/node_modules/
 03-Database/scripts/node_modules/
 
 # Production build outputs
 dist/
+**/dist/
 01-Frontend/dist/
 02-Backend/lib/
 
 # Local Environment Variables & Secrets
 .env.local
 .env.*.local
+**/.env.local
+**/.env.*.local
 01-Frontend/.env.local
 serviceAccountKey.json
 *.serviceAccountKey.json
